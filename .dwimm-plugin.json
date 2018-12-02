@@ -1,0 +1,16 @@
+{
+	"id": "@dwimm/plugin-n26",
+	"website": null,
+	"github": "https://github.com/dwimm/plugin-n26",
+	"documentation": null,
+	"name": "N26",
+	"description": "Adds support for N26.",
+	"responsibilities": [
+		{
+			"name": "N26",
+			"website": "https://n26.com/",
+			"bic": ["NTSBDEB1XXX"],
+			"account": true
+		}
+	]
+}
