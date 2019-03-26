@@ -15,7 +15,7 @@
 		"n26": "^1.5.3"
 	},
 	"devDependencies": {
-		"eslint": "^5.11.1",
+		"eslint": "^5.15.3",
 		"eslint-plugin-security": "^1.4.0",
 		"npm-check": "^5.9.0"
 	}
