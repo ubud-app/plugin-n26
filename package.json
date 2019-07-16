@@ -14,7 +14,7 @@
 		"n26": "^1.5.3"
 	},
 	"devDependencies": {
-		"eslint": "^5.15.3",
+		"eslint": "^6.0.1",
 		"eslint-plugin-security": "^1.4.0",
 		"npm-check": "^5.9.0"
 	},
@@ -25,7 +25,9 @@
 			{
 				"name": "N26",
 				"website": "https://n26.com/",
-				"bic": ["NTSBDEB1XXX"],
+				"bic": [
+					"NTSBDEB1XXX"
+				],
 				"account": true
 			}
 		]
