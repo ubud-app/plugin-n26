@@ -1,6 +1,7 @@
 stages:
   - check
   - publish
+  - notify
 
 check_lint:
   stage: check
@@ -36,3 +37,14 @@ publish_npm:
     - npm publish
   only:
     - tags
+
+notify:
+  stage: notify
+  tags:
+    - matt.sebbo.net
+    - ssh
+  script:
+    - curl -X "POST" "https://api.repository.dwimm.org/webhooks/update-plugin/${WEBHOOK_SECRET}"
+  only:
+    - develop
+    - master

@@ -17,5 +17,17 @@
 		"eslint": "^5.15.3",
 		"eslint-plugin-security": "^1.4.0",
 		"npm-check": "^5.9.0"
+	},
+	"org_dwimm": {
+		"name": "N26",
+		"help": "https://github.com/dwimm/plugin-n26#-settings",
+		"responsibilities": [
+			{
+				"name": "N26",
+				"website": "https://n26.com/",
+				"bic": ["NTSBDEB1XXX"],
+				"account": true
+			}
+		]
 	}
 }
