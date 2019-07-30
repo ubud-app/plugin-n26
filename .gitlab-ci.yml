@@ -34,7 +34,7 @@ publish_npm:
     - npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
     - git push --force "https://${GITHUB_AUTH}@github.com/ubud-app/plugin-n26.git" --tags
     - npm run bump
-    - npm publish
+    - npm publish --access public
   only:
     - tags
 
